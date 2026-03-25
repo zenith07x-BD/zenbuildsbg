@@ -1,0 +1,261 @@
+<!-- psst. hey. you found a discount code! Tell me this code before sending payment! </!-->
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zen's Builds</title>
+<style>
+body{
+font-family:Arial,sans-serif;
+background:#0b0f14;
+color:white;
+margin:0;
+}
+
+header{
+padding:60px 20px;
+text-align:center;
+background:linear-gradient(180deg,#0b0f14,#111827);
+border-bottom:2px solid #00c3ff;
+}
+
+main{
+display:grid;
+grid-template-areas:
+"title title"
+"info side"
+"info reviews"
+"buttons buttons"
+"footer footer";
+grid-template-columns:1fr 1fr;
+gap:20px;
+padding:30px 20px;
+max-width:1000px;
+margin:auto;
+}
+
+.title{
+grid-area:title;
+text-align:center;
+border:1px solid #00c3ff;
+padding:15px;
+border-radius:10px;
+}
+
+.info{
+grid-area:info;
+border:1px solid #00c3ff;
+padding:15px;
+border-radius:10px;
+}
+
+.side{
+grid-area:side;
+border:1px solid #00c3ff;
+padding:15px;
+border-radius:10px;
+}
+
+.reviews{
+grid-area:reviews;
+border:1px solid #00c3ff;
+padding:15px;
+border-radius:10px;
+text-align:center;
+}
+
+.buttons{
+grid-area:buttons;
+text-align:center;
+border:1px solid #00c3ff;
+padding:20px;
+border-radius:10px;
+}
+
+.buttons a{
+display:inline-block;
+margin:10px;
+padding:18px 30px;
+background:#00c3ff;
+color:black;
+text-decoration:none;
+border-radius:12px;
+font-weight:bold;
+font-size:18px;
+}
+
+.buttons a:hover{
+background:#009fd1;
+}
+
+.review-btn{
+display:inline-block;
+margin-top:15px;
+padding:12px 25px;
+background:#22c55e;
+color:black;
+text-decoration:none;
+border-radius:10px;
+font-weight:bold;
+}
+
+.review-btn:hover{
+background:#1ea853;
+}
+
+.links{
+grid-area:buttons;
+text-align:center;
+border:1px solid #00c3ff;
+padding:20px;
+border-radius:10px;
+background:transparent;
+}
+
+.links a{
+display:inline-block;
+margin:10px;
+padding:15px 25px;
+background:#00c3ff;
+color:black;
+text-decoration:none;
+border-radius:10px;
+font-weight:bold;
+font-size:16px;
+transition:background 0.3s ease;
+}
+
+.links a:hover{
+background:#009fd1;
+}
+
+@media (max-width: 768px) {
+main{
+grid-template-columns:1fr;
+grid-template-areas:
+"title"
+"info"
+"side"
+"reviews"
+"buttons"
+"footer";
+}
+
+.buttons a, .links a{
+padding:15px 20px;
+font-size:16px;
+}
+}
+
+nav{
+background:#111827;
+padding:0 20px;
+display:flex;
+justify-content:flex-end;
+align-items:center;
+border-bottom:1px solid #00c3ff;
+height:50px;
+}
+
+nav a{
+color:#00c3ff;
+text-decoration:none;
+font-weight:bold;
+padding:10px 15px;
+margin-left:15px;
+border-radius:5px;
+transition:background 0.3s ease;
+}
+
+nav a:hover{
+background:#00c3ff;
+color:black;
+}
+
+footer{
+grid-area:footer;
+margin-top:20px;
+padding:20px;
+color:#6b7280;
+text-align:center;
+border-top:2px solid #00c3ff;
+}
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<a href="https://zenbuilds.netlify.app/">English 🇬🇧</a>
+<a href="https://zenbuildsbg.netlify.app">Български 🇧🇬</a>
+
+</nav>
+
+<header>
+<h1>Zen's Builds</h1>
+<p>Minecraft строежи, опростени.</p>
+</header>
+
+<main>
+
+<section class="title">
+<h2>Изберете начин на плащане</h2>
+</section>
+
+<section class="info">
+
+<h3>За Zen's Builds</h3>
+<p>Здравей, аз съм Zenith! Ако искаш да построя нещо за теб (например къща, ферма, бункер и т.н.), присъедини се към моя Discord сървър! Можеш да направиш билет там, за да поискаш строеж.</p>
+
+<h3>Опции за плащане</h3>
+<ul>
+<li><b>Безплатно</b></li>
+<li><b>1-3 €</b></li>
+<li><b>3-6 €</b></li>
+<li><b>6-10 €</b></li>
+</ul>
+
+<h3>ЧЗВ</h3>
+<p><b>Мога ли да не плащам?</b> Да, просто искам да построя нещо за теб!</p>
+<p><b>Колко дълго може да отнеме?</b> Зависи от сложността на строежа, но ще направя всичко възможно да го завършa скоро!</p>
+<p><b>Ако се предумам?</b> Винаги можеш да се свържеш със мен в Discord, за да обсудиш евентуални промени или отмени.</p>
+<p><b>ЧЗВ = Често задавани въпроси</b></p>
+
+</section>
+
+<section class="side">
+
+<h3>Запознай се с екипа</h3>
+
+<div style="background:#111827;padding:15px;border-radius:12px;margin-bottom:15px;">
+<h4>Zenith</h4>
+<p>Главен строител, основател</p>
+</div>
+
+</section>
+
+<section class="reviews">
+
+<h3>Отзивите на потребителите</h3>
+<p style="font-size:14px; color:#9ca3af; margin:10px 0;">Сподели своя опит с нашите Minecraft строежи!</p>
+<iframe src="https://docs.google.com/spreadsheets/d/165y0uK-LaSJgqA-4EozCV-BUSNbkvNi-Ngeb1W6UmJI/edit?usp=sharing" width="100%" height="450" style="border-radius:10px; border:1px solid #00c3ff; box-sizing:border-box; display:block;"></iframe>
+<a class="review-btn" href="https://forms.gle/wo5RhogiTD9iFxPNA">Остави отзив</a>
+
+</section>
+
+<section class="links">
+<a href="https://youtube.com/@zenith07xx">YouTube (може да си видиш постройката тук!)</a>
+<a href="https://discord.gg/GABZDMdMng">Присъединяване в Дискорд</a>
+<a href="https://paypal.me/zenith07x">PayPal</a>
+</section>
+
+</main>
+
+<footer>
+© Zen's Builds, 2026. Всички права запазени.
+</footer>
+
+</body>
+</html>
